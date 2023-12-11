@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@1,300&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+#board {
+    background: skyblue;
+    border-bottom: 15px solid rgba(189, 99, 48, 0.966);
+}
+
+#restart-game {
+    margin-top: 30px;
+    padding: 10px;
+    background: greenyellow;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #222;
+}
+
+#restart-game:hover {
+    background: #ddd;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
